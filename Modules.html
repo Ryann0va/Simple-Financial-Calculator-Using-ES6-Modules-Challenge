@@ -1,0 +1,43 @@
+//U99350821
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Financial Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Financial Calculator</h1>
+  
+  <section id="interest-rate">
+    <h2>Interest Rate Calculation</h2>
+    <input type="number" id="principal-interest" placeholder="Principal">
+    <input type="number" id="rate-interest" placeholder="Rate (e.g., 0.05 for 5%)">
+    <input type="number" id="time-interest" placeholder="Time (in years)">
+    <button id="calculate-interest">Calculate Interest</button>
+    <p id="interest-result"></p>
+  </section>
+  
+  <section id="loan-payment">
+    <h2>Loan Payment Calculation</h2>
+    <input type="number" id="principal-loan" placeholder="Principal">
+    <input type="number" id="rate-loan" placeholder="Annual Rate (e.g., 0.05 for 5%)">
+    <input type="number" id="payments-loan" placeholder="Number of Monthly Payments">
+    <button id="calculate-loan">Calculate Payment</button>
+    <p id="loan-result"></p>
+  </section>
+  
+  <section id="investment-return">
+    <h2>Investment Return Calculation</h2>
+    <input type="number" id="principal-investment" placeholder="Principal">
+    <input type="number" id="rate-investment" placeholder="Rate (e.g., 0.05 for 5%)">
+    <input type="number" id="times-compounded" placeholder="Times Compounded Per Year">
+    <input type="number" id="years-investment" placeholder="Years">
+    <button id="calculate-investment">Calculate Return</button>
+    <p id="investment-result"></p>
+  </section>
+  
+  <script type="module" src="main.js"></script>
+</body>
+</html>
